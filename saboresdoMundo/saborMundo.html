@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Sabor do Mundo</title>
+	<meta charset="utf-8" />
+    <style>
+    #celEsquerda{width:300px;vertical-align:top; height:580px;background-color:aquamarine;}
+        #titulo {
+            vertical-align: top;width:400px;text-align:center;font-size:30px; font-weight:bold;
+        }
+       #paises{width:300px;text-align:center;}
+    #celDireita{width:900px; text-align:center;padding:3px 0px 3px 0px;background-color:saddlebrown;}
+    #scroll{ overflow-y: scroll;height:500px}
+     #intro{text-align:center;font-size:14px; font-weight:bold;}
+     .texto{top:0%}
+    </style>
+    <script src="saborMundoPars.js"></script>
+    <script src="saborMundoProcs.js"></script>
+</head>
+<body>
+        <table border="1">
+            <tr>
+                <td id="titulo" colspan="2">
+                </td>
+            </tr>
+             <tr>
+                <td id="celEsquerda">          
+                </td>
+                <td id="celDireita">
+                    <p id="intro"></p>
+                    <div id="scroll"></div>
+                </td>
+            </tr>
+        </table>
+    <script>inicXML("ReceitasTest.xml");</script>
+</body>
+</html>

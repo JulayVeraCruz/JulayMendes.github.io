@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<SaboresdoMundo>
+<!--Introdução da Apresentação-->
+	 <introducao tema="Gastronomia do Mundo" logotipo="logo.jpg" imgIntroducao="capa.jpg">
+     Este ficheiro XML foi criado para partilhar algumas seleções de receitas mágicas do mundo com "sabor" apaixonado pela culinaria.
+     O segredo da boa comida e dos ingredientes ao serviço dos prazeres devem ser conhecidos e explorados criativamente.
+     Por isso, mostro aqui o poder de receitas verdadeiramente especiais, para que possam experimentá-las e superá-las num jantar iluminado pela vossa imaginação e vontade de amar.
+   </introducao>
+	<!--sabor de Portugal-->
+	<receitas pais="Portugal">
+    <receita  nomeReceita="bacalhau a lagareiro" doses="8" tempo ="15">
+		  <figura ref="1" fig="barrVist2.jpg" leg=""/>
+		  <figura ref="2" fig="ingr.jpg" leg=""/>
+		  <figura ref="3" fig="Apres.jpg" leg=""/>
+		  <figura ref="4" fig="pratogast.jpg" leg=""/>
+	    <apresentacao>
+		      <parag>
+	      texto e mais texto a fazer linhas...
+		      </parag>
+		      <parag>
+	      texto e mais texto a fazer linhas...
+		      </parag>
+		      <parag>
+	      texto e mais texto a fazer linhas...
+		      </parag>
+	     </apresentacao>
+	     <ingredientes>
+		      <ingrediente nome ="Postas de bacalhau" quantidade = "1" unidades="Kg"/>
+		      <ingrediente nome ="tomate sime verde" quantidade = "200" unidades="g"/>
+		      <ingrediente nome ="pipino" quantidade = "200" unidades="g"/>		
+		      <ingrediente nome ="pimento verde" quantidade = "150" unidades="g"/>	
+		      <ingrediente nome ="cebola" quantidade = "250" unidades="g"/>	
+		      <ingrediente nome ="ovo" quantidade = "5" unidades="unid"/>	
+		      <ingrediente nome ="azeite" quantidade = "150" unidades="ml"/>	
+		      <ingrediente nome ="gelo" quantidade = "250" unidades="g"/>	
+	     </ingredientes>
+	 
+	    <Preparacao> 
+		      <parag>
+	      texto e mais texto a fazer linhas...
+		      </parag>
+		      <parag>
+	      texto e mais texto a fazer linhas...
+		      </parag>
+		      <parag>
+	      texto e mais texto a fazer linhas...
+		      </parag>
+	    </Preparacao>
+    </receita>
+    <web>
+		<link descr=" Sapo - Gaspacho a Alentejana"  url="http://pt.wikipedia.org/wiki/Stargate_SG-1" />
+		<link descr="Wikipedia - Gaspacho a Alentejana"  url="http://pt.wikipedia.org/wiki/Stargate_SG-1" />
+		<link descr=" youtube - Receita de Gaspacho"  url="https://www.youtube.com/watch?v=vZHAHwsdUos" />
+	 </web>
+	</receitas>
+</SaboresdoMundo>
